@@ -21,5 +21,5 @@ def find_the_cheese(yellow)
       y
     end
   end
-  
+
 end
