@@ -1,5 +1,6 @@
 def roll_call_dwarves(list)
   list.each_with_index.collect do |i, idx|
+    idx += 1
     puts "#{idx.to_s}" + ". #{i}"
   end
 end
