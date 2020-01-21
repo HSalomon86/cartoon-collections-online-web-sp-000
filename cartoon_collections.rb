@@ -1,5 +1,7 @@
 def roll_call_dwarves(list)
-  # Your code here
+  list.each_with_index.collect do |i, idx|
+    puts "#{idx.to_s}" + ". #{i}"
+  end
 end
 
 def summon_captain_planet# code an argument here
