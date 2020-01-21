@@ -21,5 +21,5 @@ def find_the_cheese(yellow)
       return y
     end
   end
-
+return nil
 end
