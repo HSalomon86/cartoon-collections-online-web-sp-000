@@ -16,5 +16,11 @@ end
 def find_the_cheese(yellow)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-
+  yellow.each do |y|
+    if cheese_types.include?(y)
+      return y
+    else
+      return nil
+    end
+  end
 end
